@@ -1,0 +1,178 @@
+<!-- ============================ BANNER ============================ -->
+<section class="page-banner">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a><span>/</span><span>Contact</span>
+    </nav>
+    <h1>Get In Touch</h1>
+    <p>For product enquiries, distribution opportunities, price lists or order support — speak to
+       our team directly. We respond to every business enquiry.</p>
+  </div>
+</section>
+
+<!-- ============================ CONTACT GRID ============================ -->
+<section class="section">
+  <div class="container">
+    <div class="grid grid-4" style="margin-bottom:clamp(40px,5vw,64px)">
+      <div class="info-card reveal">
+        <h4>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Customer Care
+        </h4>
+        <a href="tel:+919172588386" style="font-size:1.1rem;display:block;margin-bottom:6px">+91 9172588386</a>
+        <p style="font-size:.88rem;color:var(--muted)">Single point of contact for orders and support.</p>
+      </div>
+
+      <div class="info-card reveal">
+        <h4>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+          Email
+        </h4>
+        <a href="mailto:officialaronova26@gmail.com" style="font-size:.98rem;display:block;margin-bottom:6px;word-break:break-word">officialaronova26@gmail.com</a>
+        <p style="font-size:.88rem;color:var(--muted)">For quotations, product literature and partnerships.</p>
+      </div>
+
+      <div class="info-card reveal">
+        <h4>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/></svg>
+          Registered Office
+        </h4>
+        <address>Survey No. 162/2, Betwadi, Near Kurkumbh MIDC, Taluka Daund, District Pune – 413801, Maharashtra, India</address>
+      </div>
+
+      <div class="info-card reveal">
+        <h4>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-6 9 6v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 21v-8h6v8"/></svg>
+          Warehouse &amp; Dispatch
+        </h4>
+        <address>Swami Krupa Building, Ground Floor, Shop No. 1, Milkat No. V4L26024839, Old No. 1258, Post Office Road, Saswad, Taluka Purandar, District Pune – 412301, Maharashtra, India</address>
+      </div>
+    </div>
+
+    <!-- ================= FORM + MAP ================= -->
+    <div class="grid grid-2" style="gap:clamp(28px,4vw,56px);align-items:start">
+
+      <div class="form-card reveal">
+        <span class="eyebrow">Business Enquiry</span>
+        <h2 style="font-size:clamp(1.5rem,2.4vw,2rem);margin-bottom:.5em">Send us your requirement</h2>
+        <p style="margin-bottom:26px">Tell us what you need and we will get back with availability,
+           pricing and dispatch details.</p>
+
+        <form id="enquiry-form" novalidate>
+          <div class="field-row">
+            <div class="field">
+              <label for="f-name">Full name *</label>
+              <input type="text" id="f-name" name="name" placeholder="Your name" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="f-org">Organisation</label>
+              <input type="text" id="f-org" name="organisation" placeholder="Pharmacy / firm / hospital" autocomplete="organization">
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="f-phone">Contact number *</label>
+              <input type="tel" id="f-phone" name="phone" placeholder="+91" autocomplete="tel" required>
+            </div>
+            <div class="field">
+              <label for="f-email">Email</label>
+              <input type="email" id="f-email" name="email" placeholder="you@example.com" autocomplete="email">
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="f-city">City / State</label>
+              <input type="text" id="f-city" name="city" placeholder="e.g. Solapur, Maharashtra">
+            </div>
+            <div class="field">
+              <label for="f-type">Enquiry type</label>
+              <select id="f-type" name="type">
+                <option value="Product supply">Product supply</option>
+                <option value="Distribution / stockist">Distribution / stockist</option>
+                <option value="Institutional supply">Institutional supply</option>
+                <option value="Product literature">Product literature</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-message">Message *</label>
+            <textarea id="f-message" name="message" placeholder="Products required, quantities, delivery location…" required></textarea>
+          </div>
+          <button class="btn btn--gold btn--block" type="submit">
+            Send enquiry
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+          <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+          <p class="form-note">This opens your email client with the details pre-filled and addressed to
+             officialaronova26@gmail.com. You can also call us on
+             <a href="tel:+919172588386" style="font-weight:600">+91 9172588386</a>.</p>
+        </form>
+      </div>
+
+      <div class="reveal">
+        <div class="card" style="background:linear-gradient(158deg,var(--brand-700),var(--brand-900));border:0;color:#fff;overflow:hidden;position:relative">
+          <div style="position:absolute;inset:0;background:radial-gradient(420px 260px at 80% 6%,rgba(252,179,22,.2),transparent 62%)"></div>
+          <div style="position:relative">
+            <span class="eyebrow eyebrow--light">Our Locations</span>
+            <h3 style="color:#fff">Pune district, Maharashtra</h3>
+            <p style="color:#C6D7EE;margin-bottom:26px">Both our facilities are located in Pune
+               district, with road connectivity to the Pune–Solapur highway, the Kurkumbh MIDC belt
+               and onward routes across Maharashtra.</p>
+
+            <div style="display:grid;gap:16px">
+              <div style="background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:18px">
+                <div style="font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-400);font-weight:700;margin-bottom:8px">Registered Office</div>
+                <p style="color:#DCE8F8;font-size:.94rem;margin:0">Survey No. 162/2, Betwadi, Near Kurkumbh MIDC,<br>Taluka Daund, Dist. Pune – 413801</p>
+              </div>
+              <div style="background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:18px">
+                <div style="font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-400);font-weight:700;margin-bottom:8px">Warehouse No. 1 — Dispatch</div>
+                <p style="color:#DCE8F8;font-size:.94rem;margin:0">Swami Krupa Building, Ground Floor, Shop No. 1,<br>Post Office Road, Saswad, Taluka Purandar – 412301</p>
+              </div>
+            </div>
+
+            <a class="btn btn--ghost-light" style="margin-top:26px"
+               href="https://maps.google.com/?q=Kurkumbh+MIDC+Taluka+Daund+Dist+Pune+Maharashtra+413801"
+               target="_blank" rel="noopener">
+              Open in Maps
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="info-card" style="margin-top:22px">
+          <h4>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
+            Statutory Details
+          </h4>
+          <ul style="display:grid;gap:8px;font-size:.9rem">
+            <li><strong style="color:var(--brand-800)">GSTIN:</strong> 27ABECA9408N1Z7</li>
+            <li><strong style="color:var(--brand-800)">CIN:</strong> U46497PN2026PTC252245</li>
+            <li><strong style="color:var(--brand-800)">PAN:</strong> ABECA9408N</li>
+            <li><strong style="color:var(--brand-800)">TAN:</strong> PNEAS8870A</li>
+            <li><strong style="color:var(--brand-800)">Drug Licence:</strong> MH-PZ3-635187 | MH-PZ3-635188 | MH-PZ3-635189</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CTA ============================ -->
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="cta-band reveal">
+      <div class="cta-inner">
+        <div>
+          <h2 style="margin-bottom:.35em">Prefer to talk?</h2>
+          <p>Call our customer-care desk for order status, availability or any product question.</p>
+        </div>
+        <a class="btn btn--gold" href="tel:+919172588386" style="flex:none">
+          +91 9172588386
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

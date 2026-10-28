@@ -1,0 +1,15 @@
+{
+  "name": "Aronova Pharmaceutical Pvt. Ltd.",
+  "short_name": "Aronova",
+  "description": "Pune-based pharmaceutical company supplying quality-assured formulations in gastroenterology, respiratory care, pain management and allergy care.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0C3B81",
+  "icons": [
+    { "src": "assets/icons/favicon-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
